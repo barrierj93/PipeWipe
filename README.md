@@ -1,7 +1,11 @@
 # PipeWipe - Metadata Cleaning Tool
 
+&nbsp;
+
 ## Overview
 PipeWipe allows to **display, remove, or securely overwrite metadata** from various file types. This helps improve privacy and security by ensuring sensitive metadata is removed from documents, images, videos, and other files.
+
+&nbsp;
 
 ## Get Help
 - To display program usage details:
@@ -12,6 +16,7 @@ python pipewipe.py --info
 ```sh
 python pipewipe.py -h
 ```
+&nbsp;
 
 ## 🗂️ Supported File Types
 
@@ -25,7 +30,9 @@ python pipewipe.py -h
 | **Excel Docs** (`.xlsx`)   | Clears workbook properties |
 | **Markdown** (`.md`)       | Strips metadata sections |
 
+&nbsp;
 
+## Main Features
 
 ### ✅** Default (no argument)**
 - Creates a **new file** in the `no_meta` folder without metadata.
