@@ -2,17 +2,13 @@
 
 &nbsp;
 
-## Overview
 PipeWipe allows to **display, remove, or securely overwrite metadata** from various file types. This helps improve privacy and security by ensuring sensitive metadata is removed from documents, images, videos, and other files.
 
-&nbsp;
-
-## Get Help
-- To display program usage details:
+- Program usage details:
 ```sh
 python pipewipe.py --info
 ```
-- To show basic help:
+- Basic help:
 ```sh
 python pipewipe.py -h
 ```
