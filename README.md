@@ -30,17 +30,17 @@ python pipewipe.py -h
 
 ## Main Features
 
-### ✅** Default (no argument)**
+### ** Default (no argument)**
 - Creates a **new file** in the `no_meta` folder without metadata.
 
-### ✅** `--display`**
+### ** `--display`**
 - Shows existing metadata from a specified file or folder.
 
-### ✅** `--secure`**
+### ** `--secure`**
 - Creates a **new file** in the `no_meta` folder.
 - Overwrites metadata **3 times by default** (or a custom number with argument `--ow-times`).
 
-### ✅** `--owrite`**
+### ** `--owrite`**
 - Modifies the **original file** instead of creating a new one.
 - Overwrites metadata **3 times by default** (or a custom number with argument `--ow-times`).
 
