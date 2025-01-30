@@ -3,6 +3,16 @@
 ## Overview
 PipeWipe allows to **display, remove, or securely overwrite metadata** from various file types. This helps improve privacy and security by ensuring sensitive metadata is removed from documents, images, videos, and other files.
 
+## Get Help
+- To display program usage details:
+```sh
+python pipewipe.py --info
+```
+- To show basic help:
+```sh
+python pipewipe.py -h
+```
+
 ## 🗂️ Supported File Types
 
 | File Type                  | Metadata Removal Method              |
@@ -16,10 +26,6 @@ PipeWipe allows to **display, remove, or securely overwrite metadata** from vari
 | **Markdown** (`.md`)       | Strips metadata sections |
 
 
-## Main Features
-
-### ✅** `--info`**
-- Display program functions and supported file types.
 
 ### ✅** Default (no argument)**
 - Creates a **new file** in the `no_meta` folder without metadata.
@@ -34,17 +40,6 @@ PipeWipe allows to **display, remove, or securely overwrite metadata** from vari
 ### ✅** `--owrite`**
 - Modifies the **original file** instead of creating a new one.
 - Overwrites metadata **3 times by default** (or a custom number with argument `--ow-times`).
-
-
-## ℹ️ Get Help
-- To display program usage details:
-```sh
-python pipewipe.py --info
-```
-- To show basic help:
-```sh
-python pipewipe.py -h
-```
 
 
 ## 🛠️ How to Use It
