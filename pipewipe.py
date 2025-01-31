@@ -132,12 +132,12 @@ def main():
         Metadata Cleaner Tool
         ---------------------
         Usage:
-        - Display metadata: python metadata_cleaner.py <file_or_folder> --display
-        - Remove metadata (default): python metadata_cleaner.py <file_or_folder>
-        - Secure overwrite (creates new file): python metadata_cleaner.py <file_or_folder> --secure
-        - Set overwrite iterations: python metadata_cleaner.py <file_or_folder> --secure --ow-times N
-        - Overwrite original file: python metadata_cleaner.py <file_or_folder> --owrite
-        - Overwrite original file with custom iterations: python metadata_cleaner.py <file_or_folder> --owrite --ow-times N
+        - Display metadata: python pipewipe.py <file_or_folder> --display
+        - Remove metadata (default): python pipewipe.py <file_or_folder>
+        - Secure overwrite (creates new file): python pipewipe.py <file_or_folder> --secure
+        - Set overwrite iterations: python pipewipe.py <file_or_folder> --secure --ow-times N
+        - Overwrite original file: python pipewipe.py <file_or_folder> --owrite
+        - Overwrite original file with custom iterations: python pipewipe.py <file_or_folder> --owrite --ow-times N
 
         Supported File Types:
         ---------------------
